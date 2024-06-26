@@ -4,7 +4,7 @@ from zipfile import ZipFile
 import tensorflow as tf
 import time
 from pathlib import Path
-from ChickenDiseaseClassification.entity.config_entity import *
+from cnn_classifier.entity.config_entity import * 
 
 class Training:
     def __init__(self, config: TrainingConfig):

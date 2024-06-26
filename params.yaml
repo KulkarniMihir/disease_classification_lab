@@ -1,4 +1,4 @@
-AUGMENT: TRUE
+AUGMENTATION: TRUE
 IMAGE_SIZE: [224, 224, 3] # as per VGG16 model input shape on keras.io
 BATCH_SIZE: 16
 INCLUDE_TOP: False
