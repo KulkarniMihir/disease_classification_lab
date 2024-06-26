@@ -5,19 +5,19 @@
 ## Key Features
 
 ### Deep Learning Model
-1. ChickSight employs a deep learning model based on the VGG16 architecture, a widely-used convolutional neural network (CNN) pre-trained on the ImageNet dataset. This model serves as the backbone for image classification, with additional layers fine-tuned and optimized specifically for coccidiosis detection. Through extensive experimentation and parameter tuning, ChickSight achieves superior performance in accurately identifying instances of coccidiosis.
+1. disease_classification_lab employs a deep learning model based on the VGG16 architecture, a widely-used convolutional neural network (CNN) pre-trained on the ImageNet dataset. This model serves as the backbone for image classification, with additional layers fine-tuned and optimized specifically for coccidiosis detection. Through extensive experimentation and parameter tuning, disease_classification_lab achieves superior performance in accurately identifying instances of coccidiosis.
 
 ### Scalable Infrastructure
 To support the computational demands of training and inference, ChickSight leverages Amazon Elastic Compute Cloud (EC2) instances. These scalable virtual servers provide the necessary computational power for processing large volumes of image data efficiently. By utilizing EC2 instances, ChickSight ensures scalability and flexibility in handling varying workloads and dataset sizes.
 
 ### Secure Access Control
-Security is a paramount concern when dealing with sensitive data such as poultry health information. ChickSight implements Identity and Access Management (IAM) Users with granular permissions to manage access to resources within the AWS environment. This ensures that only authorized personnel have access to the trained model, dataset, and other project assets, maintaining the confidentiality and integrity of the data.
+Security is a paramount concern when dealing with sensitive data such as poultry health information. disease_classification_lab implements Identity and Access Management (IAM) Users with granular permissions to manage access to resources within the AWS environment. This ensures that only authorized personnel have access to the trained model, dataset, and other project assets, maintaining the confidentiality and integrity of the data.
 
 ### Containerized Deployment
-For seamless deployment across different environments, ChickSight adopts a containerized approach using Docker. Containerization encapsulates the application and its dependencies into lightweight, portable containers, facilitating consistent deployment and execution across diverse computing environments. By containerizing ChickSight, developers can easily deploy the application on local machines, cloud platforms, or hybrid environments without worrying about compatibility issues.
+For seamless deployment across different environments, disease_classification_lab adopts a containerized approach using Docker. Containerization encapsulates the application and its dependencies into lightweight, portable containers, facilitating consistent deployment and execution across diverse computing environments. By containerizing disease_classification_lab, developers can easily deploy the application on local machines, cloud platforms, or hybrid environments without worrying about compatibility issues.
 
 ### Continuous Integration/Continuous Deployment (CI/CD)
-ChickSight embraces a DevOps approach with a robust CI/CD pipeline to automate the development, testing, and deployment processes. The pipeline incorporates tools such as Data Version Control (DVC), Flask, and Docker to ensure streamlined workflows from code changes to production deployment. With automated testing, validation, and deployment steps, ChickSight accelerates the delivery of new features and updates while maintaining code quality and reliability.
+disease_classification_lab embraces a DevOps approach with a robust CI/CD pipeline to automate the development, testing, and deployment processes. The pipeline incorporates tools such as Data Version Control (DVC), Flask, and Docker to ensure streamlined workflows from code changes to production deployment. With automated testing, validation, and deployment steps, disease_classification_lab accelerates the delivery of new features and updates while maintaining code quality and reliability.
 
 ## Getting Started
 
@@ -31,11 +31,11 @@ Before getting started with ChickSight, ensure you have the following prerequisi
 
 ### Installation
 1. Clone the ChickSight repository to your local machine: </br>
-` git clone https://github.com/nikhil16kulkarni/ChickSight.git `
+` git clone https://github.com/KulkarniMihir/disease_classification_lab.git `
 
 2. Create a conda environment after opening the repository </br>
-` conda create -n ChickenDiseaseClassification python=3.8 -y ` </br>
-` conda activate ChickenDiseaseClassification `
+` conda create -n disease_classification_lab python=3.8 -y ` </br>
+` conda activate disease_classification_lab `
 
 4. Install the required dependencies using pip: </br>
 ` pip install -r requirements.txt `
@@ -82,7 +82,7 @@ Before getting started with ChickSight, ensure you have the following prerequisi
 ## Contributing
 Contributions to ChickSight are welcome! Whether it's bug fixes, feature enhancements, or documentation improvements, your contributions are valuable in advancing the project. To contribute, please follow these steps:
 
-1. Fork the ChickSight repository.
+1. Fork the disease_classification_lab repository.
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and commit them with descriptive messages.
 4. Push your changes to your forked repository.
