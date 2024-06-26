@@ -8,7 +8,7 @@
 1. disease_classification_lab employs a deep learning model based on the VGG16 architecture, a widely-used convolutional neural network (CNN) pre-trained on the ImageNet dataset. This model serves as the backbone for image classification, with additional layers fine-tuned and optimized specifically for coccidiosis detection. Through extensive experimentation and parameter tuning, disease_classification_lab achieves superior performance in accurately identifying instances of coccidiosis.
 
 ### Scalable Infrastructure
-To support the computational demands of training and inference, ChickSight leverages Amazon Elastic Compute Cloud (EC2) instances. These scalable virtual servers provide the necessary computational power for processing large volumes of image data efficiently. By utilizing EC2 instances, ChickSight ensures scalability and flexibility in handling varying workloads and dataset sizes.
+To support the computational demands of training and inference, disease_classification_lab leverages Amazon Elastic Compute Cloud (EC2) instances. These scalable virtual servers provide the necessary computational power for processing large volumes of image data efficiently. By utilizing EC2 instances, disease_classification_lab ensures scalability and flexibility in handling varying workloads and dataset sizes.
 
 ### Secure Access Control
 Security is a paramount concern when dealing with sensitive data such as poultry health information. disease_classification_lab implements Identity and Access Management (IAM) Users with granular permissions to manage access to resources within the AWS environment. This ensures that only authorized personnel have access to the trained model, dataset, and other project assets, maintaining the confidentiality and integrity of the data.
@@ -22,7 +22,7 @@ disease_classification_lab embraces a DevOps approach with a robust CI/CD pipeli
 ## Getting Started
 
 ### Prerequisites
-Before getting started with ChickSight, ensure you have the following prerequisites installed:
+Before getting started with disease_classification_lab, ensure you have the following prerequisites installed:
 
 - Python (version 3.x)
 - Docker
@@ -30,7 +30,7 @@ Before getting started with ChickSight, ensure you have the following prerequisi
 - Git
 
 ### Installation
-1. Clone the ChickSight repository to your local machine: </br>
+1. Clone the disease_classification_lab repository to your local machine: </br>
 ` git clone https://github.com/KulkarniMihir/disease_classification_lab.git `
 
 2. Create a conda environment after opening the repository </br>
@@ -77,10 +77,10 @@ Before getting started with ChickSight, ensure you have the following prerequisi
 
 2. **Training the Model**: Train the deep learning model using the provided scripts and configuration files. Experiment with hyperparameters and model architectures to optimize performance.
 
-3. **Deployment**: Once trained, deploy ChickSight using the provided Dockerfile and deployment scripts. Configure AWS credentials and ensure proper setup for deployment on EC2 instances.
+3. **Deployment**: Once trained, deploy disease_classification_lab using the provided Dockerfile and deployment scripts. Configure AWS credentials and ensure proper setup for deployment on EC2 instances.
 
 ## Contributing
-Contributions to ChickSight are welcome! Whether it's bug fixes, feature enhancements, or documentation improvements, your contributions are valuable in advancing the project. To contribute, please follow these steps:
+Contributions to disease_classification_lab are welcome! Whether it's bug fixes, feature enhancements, or documentation improvements, your contributions are valuable in advancing the project. To contribute, please follow these steps:
 
 1. Fork the disease_classification_lab repository.
 2. Create a new branch for your feature or bug fix.
